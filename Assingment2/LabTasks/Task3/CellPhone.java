@@ -1,4 +1,4 @@
-package Assingment.LabTasks.Task3;
+package Task3;
 
 public class CellPhone {
     public String model = "unknwon";

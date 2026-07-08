@@ -1,4 +1,4 @@
-package Assingment.LabTasks.Task3;
+package Task3;
 
 public class Tester4{
   public static void main(String[]args){

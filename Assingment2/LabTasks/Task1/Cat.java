@@ -1,4 +1,4 @@
-package Assingment.LabTasks.Task1;
+package Task1;
 
 public class Cat {
     public String color = "White";

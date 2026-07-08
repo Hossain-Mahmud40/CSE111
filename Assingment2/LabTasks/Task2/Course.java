@@ -1,4 +1,4 @@
-package Assingment.LabTasks.Task2;
+package Task2;
 
 public class Course {
   public String title;
