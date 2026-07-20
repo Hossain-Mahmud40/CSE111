@@ -1,4 +1,4 @@
-package HomeTask.Task2;
+package Task2;
 
 public class Student {
 

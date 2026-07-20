@@ -1,4 +1,4 @@
-package HomeTask.Task1;
+package Task1;
 
 public class Player {
   public String name;
