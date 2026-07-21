@@ -14,15 +14,12 @@ public class Cart {
       System.out.println("Limit Reached");
       return;
     }
-
     this.name[this.count] = name;
     this.price[this.count] = price;
     this.count++;
   }
 
-  public void storeProduct(String name1, int price1,
-                           String name2, int price2) {
-
+  public void storeProduct(String name1, int price1,String name2, int price2) {
     storeProduct(name1, price1);
     storeProduct(name2, price2);
   }
@@ -36,22 +33,15 @@ public class Cart {
     }
 
     for(int i = 0; i < this.count; i++) {
-      System.out.println(
-        this.name[i] + " - " + this.price[i]
-      );
+      System.out.println( this.name[i]+" - "+this.price[i] );
     }
   }
 
   public void transferItem(Cart cart, String productName) {
-
     for(int i = 0; i < this.count; i++) {
-
       if(this.name[i].equals(productName)) {
 
-        cart.storeProduct(
-          this.name[i],
-          this.price[i]
-        );
+        cart.storeProduct(this.name[i], this.price[i]);
 
         for(int j = i; j < this.count - 1; j++) {
           this.name[j] = this.name[j + 1];
