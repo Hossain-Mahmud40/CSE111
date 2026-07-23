@@ -36,7 +36,7 @@ public class Restaurant {
       return;
     }
 
-    System.out.println("Showing "+rn+" orders:");
+    System.out.println("Showing " + rn + "'s orders:");
     for(int i =0; i<c; i++){
       System.out.println("Order by "+ue[i].getNm()+" at "+ue[i].getLc()+" completed");
     }
