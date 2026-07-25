@@ -18,11 +18,13 @@ public class Company {
     System.out.println("Company Name: "+cnm);
     System.out.println("Total Employee: "+count);
     System.out.println("Fulltime Employees:");
+    
     for(int i =0; i<count; i++){
       if(em[i].getType().equals("Fulltime")){
         System.out.println("Name: "+em[i].getName()+", ID: "+em[i].getId());
       }
     }
+
     System.out.println("Part-Time Employees:");
     
     for(int i =0; i<count; i++){
